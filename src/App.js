@@ -12,19 +12,21 @@ function App() {
       <div className='header'>
         <Header />
       </div>
-      <div className='inputForm'>
-        <div className='general'>
-          <GeneralInfo /> 
+      <div className='pageView'>
+        <div className='inputForm'>
+          <div className='general'>
+            <GeneralInfo /> 
+          </div>
+          <div className='education'>
+          <Education />
+          </div>
+          <div className='employment'>
+            <Employment />
+          </div>        
         </div>
-        <div className='education'>
-         <Education />
+        <div className='display'>
+          <Overview />
         </div>
-        <div className='employment'>
-          <Employment />
-        </div>        
-      </div>
-      <div className='display'>
-        <Overview />
       </div>
       <div className='footer'>
         <Footer />
