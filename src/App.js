@@ -19,6 +19,7 @@ function App() {
 
   const onSubmitGeneralInfo = (e) => {
     e.preventDefault()
+    setFirstName('')
   }
 
   const onSubmitEducation = (e) => {
