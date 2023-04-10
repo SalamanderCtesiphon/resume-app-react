@@ -15,7 +15,7 @@ function App() {
 
   const onSubmitGeneralInfo = (e) => {
     e.preventDefault()
-    console.log({firstName, lastName, email, phone})
+    
 
   }
 
@@ -44,6 +44,7 @@ function App() {
           </div>        
         </div>
         <div className='display'>
+          <div>{firstName}</div>
           <Overview />
         </div>
       </div>
